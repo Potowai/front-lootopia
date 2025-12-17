@@ -15,7 +15,7 @@ const compat = new FlatCompat({
 });
 
 export default [
-    { ignores: [".next/", "node_modules/", "build/", "out/"] },
+    { ignores: [".next/", "node_modules/", "build/", "out/", "public/sw.js", "public/workbox*"] },
     ...compat.extends("prettier"),
     {
         plugins: {

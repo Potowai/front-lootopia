@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Lootopia",
   description: "Explore, Loot, Conquer",
   manifest: "/manifest.json",
+  icons: {
+    icon: "/icons/favicon.png",
+  },
 };
 
 export const viewport: Viewport = {
